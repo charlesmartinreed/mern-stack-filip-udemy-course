@@ -1,0 +1,26 @@
+{
+  "name": "mern-stack-filip-udemy-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src/js -d dist/js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charlesmartinreed/mern-stack-filip-udemy-course.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charlesmartinreed/mern-stack-filip-udemy-course/issues"
+  },
+  "homepage": "https://github.com/charlesmartinreed/mern-stack-filip-udemy-course#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4"
+  }
+}
