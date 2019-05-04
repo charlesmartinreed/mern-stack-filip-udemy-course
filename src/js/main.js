@@ -1,5 +1,11 @@
-const x = { a: 1, b: 2, c: 3 };
-console.log(Object.entries(x));
+const express = require("express"),
+  app = express(),
+  port = 8055;
 
-const y = { d: 4, e: 5, f: 6 };
-console.log(Object.entries(y));
+app.get("/", (req, res) => {
+  res.send("hello world!");
+});
+
+app.listen(port, () =>
+  console.log(`Example app is now listening on port ${port}!`)
+);

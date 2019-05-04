@@ -1,14 +1,12 @@
 "use strict";
 
-var x = {
-  a: 1,
-  b: 2,
-  c: 3
-};
-console.log(Object.entries(x));
-var y = {
-  d: 4,
-  e: 5,
-  f: 6
-};
-console.log(Object.entries(y));
+var express = require("express"),
+    app = express(),
+    port = 8055;
+
+app.get("/", function (req, res) {
+  res.send("hello world!");
+});
+app.listen(port, function () {
+  return console.log("Example app is now listening on port ".concat(port, "!"));
+});
